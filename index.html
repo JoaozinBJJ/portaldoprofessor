@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login - Portal do Professor">
+    <title>Portal do Professor — Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <!-- area de login -->
+    
+    <main class="page">
+        <section class="login-wrap" aria-labelledby="login-title">
+            
+            <img src="portal.png" alt="Portal do Professor" class="logo"/>
+
+            <div class="card">
+                <h1 id="login-title" class="title">Portal do Professor</h1>
+
+                    <form id="login-form" class="form">
+                    <label class="field">
+                        <span class="label-text">E‑mail</span>
+                        <input type="email" name="email" id="email" required autocomplete="username" />
+                    </label>
+
+                    <label class="field">
+                        <span class="label-text">Senha</span>
+                        <input type="password" name="password" id="password" required minlength="6" autocomplete="current-password" />
+                    </label>
+
+                    <button type="submit" class="btn">Entrar</button>
+
+                    <p class="msg" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer" role="contentinfo">
+        <img src="cach.png" alt="Crachá" class="cach" />
+        <div class="credit">Feito por João di Paula</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    
